@@ -115,7 +115,7 @@ local ScreenGui = Instance.new("ScreenGui")
  k:Play()
  k:AdjustSpeed(1)
  end
- --Script
+end)
  local TeleportService = game:GetService("TeleportService")
  
 local Place = 13472522182
