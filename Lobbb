@@ -74,7 +74,7 @@ local ScreenGui = Instance.new("ScreenGui")
  insaneothers.Size = UDim2.new(0, 155, 0, 50)
  insaneothers.Font = Enum.Font.SciFi
  insaneothers.FontSize = Enum.FontSize.Size18
- insaneothers.Text = "FE TeleportService"
+ insaneothers.Text = "FE TeleportSurvice"
  insaneothers.TextColor3 = Color3.new(0, 1, 1)
  insaneothers.TextSize = 18
 
@@ -115,12 +115,10 @@ local ScreenGui = Instance.new("ScreenGui")
  k:Play()
  k:AdjustSpeed(1)
  end
---Script
-local TeleportService = game:GetService("TeleportService")
+ --Script
+ local TeleportService = game:GetService("TeleportService")
  
 local Place = 13472522182
  
 local player = game.Players.LocalPlayer
-       end
-   end
  end)
